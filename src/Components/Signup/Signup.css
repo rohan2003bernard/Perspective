@@ -75,7 +75,7 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-
+  cursor: pointer;
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
