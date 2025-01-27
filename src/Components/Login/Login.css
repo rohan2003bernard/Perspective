@@ -45,12 +45,12 @@
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 400;
   position: relative;
 }
 
-.forgot-password {
+.msg {
   color: #000000;
   text-align: center;
   font-family: "Inter-Regular", sans-serif;
