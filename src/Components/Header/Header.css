@@ -1,8 +1,44 @@
-.Header{
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.Header h1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.Header ul {
+  list-style: none;
+  display: flex;
+  
+}
+
+.Header ul li {
+  display: flex;
+}
+
+ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
     color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: #000000;
+}
+
+.signup:hover{
+    color: #000000;
 }

@@ -7,16 +7,15 @@ import Signup from './Components/Signup/Signup'
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <BrowserRouter>
+    <BrowserRouter>
+      <div>
+        <Header/>
         <Routes>
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
         </Routes>
-      </BrowserRouter>
-      
-    </div>
+      </div>
+    </BrowserRouter>
   )
 }
 
