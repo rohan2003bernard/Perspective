@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom'
 import { useRef } from 'react'
@@ -14,7 +14,7 @@ const Login = () => {
 
     return (
 
-        <form className='login'>
+        <form className='login' onSubmit={()=>onChange}>
             <div className="title">
                 <div className="login2">Login</div>
             </div>
@@ -24,7 +24,7 @@ const Login = () => {
             </div>
             <a href='#' className="msg">Forgot Password</a>
             <Link to='/signup' className='signup msg'>New User</Link>
-            <button type="submit" className='submit' onClick={onChange()}>Submit</button>
+            <button type="submit" className='submit'>Submit</button>
         </form>
 
 

@@ -1,3 +1,4 @@
+
 import { useRef } from 'react'
 import './Signup.css'
 import { Link } from 'react-router-dom'
@@ -17,7 +18,7 @@ const Signup = () => {
     }
     return (
 
-        <form className='Signup' >
+        <form className='Signup' onSubmit={()=>onStore}>
             <div className="title">
                 <div className="Signup2">Signup</div>
             </div>
@@ -29,7 +30,7 @@ const Signup = () => {
                 <input className='re-password password' placeholder='Retype Password' type="password" ref={re_password} />
             </div>
             <Link to='/login' className='signup msg'>Existing User</Link>
-            <button type="submit" className='submit' onClick={onStore()}>Submit</button>
+            <button type="submit" className='submit'>Submit</button>
         </form>
 
 
