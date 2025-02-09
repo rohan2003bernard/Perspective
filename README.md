@@ -1,5 +1,11 @@
-check with localhost:xxxx/login
+TO run in your machine
 
-xxxx is the port number
+got to the folder and open command prompt
 
-check
+type "git clone https://github.com/rohan2003bernard/front-end-rohan.git"
+
+then "cd front-end-rohan"
+
+then "npm install vite"
+
+finally "npm run dev"
